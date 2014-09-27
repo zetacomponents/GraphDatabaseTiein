@@ -1,4 +1,4 @@
-1.1 - Saturday 20 September 2014
+1.1 - Saturday 27 September 2014
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Fixed: Adjusted source headers of Execution to Apache license.
@@ -7,6 +7,7 @@
 - Fixed #ZETACOMP-33: Many dead links (404)
 - Remove custom test runner.
 - Fix autoloading with composer
+
 
 1.0.1 - Monday 10 November 2008
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
