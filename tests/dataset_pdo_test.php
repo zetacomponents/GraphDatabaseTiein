@@ -109,7 +109,9 @@ class ezcGraphDatabaseTest extends ezcTestCase
         $count = 0;
         foreach ( $dataset as $key => $value )
         {
-            list( $compareKey, $compareValue ) = each( $dataSetArray );
+            $compareValue = current( $dataSetArray );
+            $compareKey = key( $dataSetArray );
+            next( $dataSetArray );
 
             $this->assertEquals(
                 $compareKey,
@@ -154,7 +156,8 @@ class ezcGraphDatabaseTest extends ezcTestCase
         $count = 0;
         foreach ( $dataset as $key => $value )
         {
-            list( $compareKey, $compareValue ) = each( $dataSetArray );
+            $compareValue = current( $dataSetArray );
+            next( $dataSetArray );
 
             $this->assertEquals(
                 $count,
@@ -224,7 +227,9 @@ class ezcGraphDatabaseTest extends ezcTestCase
         $count = 0;
         foreach ( $dataset as $key => $value )
         {
-            list( $compareKey, $compareValue ) = each( $dataSetArray );
+            $compareValue = current( $dataSetArray );
+            $compareKey = key( $dataSetArray );
+            next( $dataSetArray );
 
             $this->assertEquals(
                 $compareKey,
@@ -274,7 +279,8 @@ class ezcGraphDatabaseTest extends ezcTestCase
         $count = 0;
         foreach ( $dataset as $key => $value )
         {
-            list( $compareKey, $compareValue ) = each( $dataSetArray );
+            $compareValue = current( $dataSetArray );
+            next( $dataSetArray );
 
             $this->assertEquals(
                 $count,
